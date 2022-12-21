@@ -22,4 +22,5 @@ runs:
 
         Check-Exe cc
         Check-Exe c++
+        Check-Exe windres
       shell: pwsh

@@ -219,6 +219,7 @@ runs:
         if ($cc) {
             Link-Exe '${{ steps.setup.outputs.gcc }}' cc
             Link-Exe '${{ steps.setup.outputs.gxx }}' c++
+            Link-Exe '${{ steps.setup.outputs.windres }}' windres
         }
       shell: pwsh
 
