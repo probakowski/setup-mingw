@@ -177,7 +177,7 @@ runs:
 
         $gcc = $prefix + '-gcc'
         $gxx = $prefix + '-g++'
-        $windres = $prefix = '-windres'
+        $windres = $prefix + '-windres'
 
         echo "::set-output name=prefix::$prefix"
         echo "::set-output name=gcc::$gcc"
